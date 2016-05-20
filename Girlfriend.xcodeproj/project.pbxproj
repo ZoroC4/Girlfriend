@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55CF61B71CEF54B400425074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF61B61CEF54B400425074 /* main.m */; };
+		55CF61BA1CEF54B400425074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF61B91CEF54B400425074 /* AppDelegate.m */; };
+		55CF61BD1CEF54B400425074 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF61BC1CEF54B400425074 /* ViewController.m */; };
+		55CF61C01CEF54B400425074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CF61BE1CEF54B400425074 /* Main.storyboard */; };
+		55CF61C21CEF54B400425074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CF61C11CEF54B400425074 /* Assets.xcassets */; };
+		55CF61C51CEF54B400425074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CF61C31CEF54B400425074 /* LaunchScreen.storyboard */; };
+		55CF61D01CEF54B400425074 /* GirlfriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF61CF1CEF54B400425074 /* GirlfriendTests.m */; };
+		55CF61DB1CEF54B500425074 /* GirlfriendUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF61DA1CEF54B500425074 /* GirlfriendUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55CF61CC1CEF54B400425074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CF61AA1CEF54B400425074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55CF61B11CEF54B400425074;
+			remoteInfo = Girlfriend;
+		};
+		55CF61D71CEF54B500425074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CF61AA1CEF54B400425074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55CF61B11CEF54B400425074;
+			remoteInfo = Girlfriend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55CF61B21CEF54B400425074 /* Girlfriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Girlfriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CF61B61CEF54B400425074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55CF61B81CEF54B400425074 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55CF61B91CEF54B400425074 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55CF61BB1CEF54B400425074 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55CF61BC1CEF54B400425074 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55CF61BF1CEF54B400425074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55CF61C11CEF54B400425074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55CF61C41CEF54B400425074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55CF61C61CEF54B400425074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CF61CB1CEF54B400425074 /* GirlfriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirlfriendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CF61CF1CEF54B400425074 /* GirlfriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GirlfriendTests.m; sourceTree = "<group>"; };
+		55CF61D11CEF54B400425074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CF61D61CEF54B500425074 /* GirlfriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirlfriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CF61DA1CEF54B500425074 /* GirlfriendUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GirlfriendUITests.m; sourceTree = "<group>"; };
+		55CF61DC1CEF54B500425074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55CF61AF1CEF54B400425074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CF61C81CEF54B400425074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CF61D31CEF54B500425074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55CF61A91CEF54B400425074 = {
+			isa = PBXGroup;
+			children = (
+				55CF61B41CEF54B400425074 /* Girlfriend */,
+				55CF61CE1CEF54B400425074 /* GirlfriendTests */,
+				55CF61D91CEF54B500425074 /* GirlfriendUITests */,
+				55CF61B31CEF54B400425074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55CF61B31CEF54B400425074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CF61B21CEF54B400425074 /* Girlfriend.app */,
+				55CF61CB1CEF54B400425074 /* GirlfriendTests.xctest */,
+				55CF61D61CEF54B500425074 /* GirlfriendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55CF61B41CEF54B400425074 /* Girlfriend */ = {
+			isa = PBXGroup;
+			children = (
+				55CF61B81CEF54B400425074 /* AppDelegate.h */,
+				55CF61B91CEF54B400425074 /* AppDelegate.m */,
+				55CF61BB1CEF54B400425074 /* ViewController.h */,
+				55CF61BC1CEF54B400425074 /* ViewController.m */,
+				55CF61BE1CEF54B400425074 /* Main.storyboard */,
+				55CF61C11CEF54B400425074 /* Assets.xcassets */,
+				55CF61C31CEF54B400425074 /* LaunchScreen.storyboard */,
+				55CF61C61CEF54B400425074 /* Info.plist */,
+				55CF61B51CEF54B400425074 /* Supporting Files */,
+			);
+			path = Girlfriend;
+			sourceTree = "<group>";
+		};
+		55CF61B51CEF54B400425074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55CF61B61CEF54B400425074 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55CF61CE1CEF54B400425074 /* GirlfriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				55CF61CF1CEF54B400425074 /* GirlfriendTests.m */,
+				55CF61D11CEF54B400425074 /* Info.plist */,
+			);
+			path = GirlfriendTests;
+			sourceTree = "<group>";
+		};
+		55CF61D91CEF54B500425074 /* GirlfriendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55CF61DA1CEF54B500425074 /* GirlfriendUITests.m */,
+				55CF61DC1CEF54B500425074 /* Info.plist */,
+			);
+			path = GirlfriendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55CF61B11CEF54B400425074 /* Girlfriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CF61DF1CEF54B500425074 /* Build configuration list for PBXNativeTarget "Girlfriend" */;
+			buildPhases = (
+				55CF61AE1CEF54B400425074 /* Sources */,
+				55CF61AF1CEF54B400425074 /* Frameworks */,
+				55CF61B01CEF54B400425074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Girlfriend;
+			productName = Girlfriend;
+			productReference = 55CF61B21CEF54B400425074 /* Girlfriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55CF61CA1CEF54B400425074 /* GirlfriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CF61E21CEF54B500425074 /* Build configuration list for PBXNativeTarget "GirlfriendTests" */;
+			buildPhases = (
+				55CF61C71CEF54B400425074 /* Sources */,
+				55CF61C81CEF54B400425074 /* Frameworks */,
+				55CF61C91CEF54B400425074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55CF61CD1CEF54B400425074 /* PBXTargetDependency */,
+			);
+			name = GirlfriendTests;
+			productName = GirlfriendTests;
+			productReference = 55CF61CB1CEF54B400425074 /* GirlfriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55CF61D51CEF54B500425074 /* GirlfriendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CF61E51CEF54B500425074 /* Build configuration list for PBXNativeTarget "GirlfriendUITests" */;
+			buildPhases = (
+				55CF61D21CEF54B500425074 /* Sources */,
+				55CF61D31CEF54B500425074 /* Frameworks */,
+				55CF61D41CEF54B500425074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55CF61D81CEF54B500425074 /* PBXTargetDependency */,
+			);
+			name = GirlfriendUITests;
+			productName = GirlfriendUITests;
+			productReference = 55CF61D61CEF54B500425074 /* GirlfriendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55CF61AA1CEF54B400425074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = grylls;
+				TargetAttributes = {
+					55CF61B11CEF54B400425074 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					55CF61CA1CEF54B400425074 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 55CF61B11CEF54B400425074;
+					};
+					55CF61D51CEF54B500425074 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 55CF61B11CEF54B400425074;
+					};
+				};
+			};
+			buildConfigurationList = 55CF61AD1CEF54B400425074 /* Build configuration list for PBXProject "Girlfriend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55CF61A91CEF54B400425074;
+			productRefGroup = 55CF61B31CEF54B400425074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55CF61B11CEF54B400425074 /* Girlfriend */,
+				55CF61CA1CEF54B400425074 /* GirlfriendTests */,
+				55CF61D51CEF54B500425074 /* GirlfriendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55CF61B01CEF54B400425074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF61C51CEF54B400425074 /* LaunchScreen.storyboard in Resources */,
+				55CF61C21CEF54B400425074 /* Assets.xcassets in Resources */,
+				55CF61C01CEF54B400425074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CF61C91CEF54B400425074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CF61D41CEF54B500425074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55CF61AE1CEF54B400425074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF61BD1CEF54B400425074 /* ViewController.m in Sources */,
+				55CF61BA1CEF54B400425074 /* AppDelegate.m in Sources */,
+				55CF61B71CEF54B400425074 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CF61C71CEF54B400425074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF61D01CEF54B400425074 /* GirlfriendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CF61D21CEF54B500425074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF61DB1CEF54B500425074 /* GirlfriendUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55CF61CD1CEF54B400425074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55CF61B11CEF54B400425074 /* Girlfriend */;
+			targetProxy = 55CF61CC1CEF54B400425074 /* PBXContainerItemProxy */;
+		};
+		55CF61D81CEF54B500425074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55CF61B11CEF54B400425074 /* Girlfriend */;
+			targetProxy = 55CF61D71CEF54B500425074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55CF61BE1CEF54B400425074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55CF61BF1CEF54B400425074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55CF61C31CEF54B400425074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55CF61C41CEF54B400425074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55CF61DD1CEF54B500425074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55CF61DE1CEF54B500425074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55CF61E01CEF54B500425074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Girlfriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fwq.com.Girlfriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55CF61E11CEF54B500425074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Girlfriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fwq.com.Girlfriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55CF61E31CEF54B500425074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GirlfriendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fwq.com.GirlfriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Girlfriend.app/Girlfriend";
+			};
+			name = Debug;
+		};
+		55CF61E41CEF54B500425074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GirlfriendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fwq.com.GirlfriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Girlfriend.app/Girlfriend";
+			};
+			name = Release;
+		};
+		55CF61E61CEF54B500425074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GirlfriendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fwq.com.GirlfriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Girlfriend;
+			};
+			name = Debug;
+		};
+		55CF61E71CEF54B500425074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GirlfriendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fwq.com.GirlfriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Girlfriend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55CF61AD1CEF54B400425074 /* Build configuration list for PBXProject "Girlfriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CF61DD1CEF54B500425074 /* Debug */,
+				55CF61DE1CEF54B500425074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CF61DF1CEF54B500425074 /* Build configuration list for PBXNativeTarget "Girlfriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CF61E01CEF54B500425074 /* Debug */,
+				55CF61E11CEF54B500425074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55CF61E21CEF54B500425074 /* Build configuration list for PBXNativeTarget "GirlfriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CF61E31CEF54B500425074 /* Debug */,
+				55CF61E41CEF54B500425074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55CF61E51CEF54B500425074 /* Build configuration list for PBXNativeTarget "GirlfriendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CF61E61CEF54B500425074 /* Debug */,
+				55CF61E71CEF54B500425074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55CF61AA1CEF54B400425074 /* Project object */;
+}
